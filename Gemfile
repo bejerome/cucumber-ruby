@@ -5,7 +5,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gemspec
 
 gem 'rubocop', '1.36.0'
-gem 'rubocop-packaging', '0.5.2'
 
 # To hack on Cucumber together with any of these libraries, uncomment the line below:
 # gem 'cucumber-core', path: '../cucumber-ruby-core'
